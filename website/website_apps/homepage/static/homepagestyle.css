@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=K2D);
+  
+  body{
+    margin: 0px;
+  }
+
+  .page {
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 60px 205px 60px;
+    width: 1352px;
+    box-sizing: border-box;
+  }
+
+  .desktop-3__header {
+    margin: 0 20.1px 191px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1211.9px;
+    box-sizing: border-box;
+  }
+
+  .pegasus-recruiting {
+    margin-right: 34px;
+    width: 936px;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 700;
+    font-size: 26px;
+    color: #F0F3FC;
+  }
+
+  .desktop-3__frame-2 {
+    margin: 20px 0 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 241.9px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+
+  .desktop-3__home {
+    margin-right: 9px;
+    width: 55px;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 800;
+    font-size: 14px;
+    color: #F0F3FC;
+  }
+
+  .desktop-3__about-us_button {
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 800;
+    font-size: 14px;
+    color: #F0F3FC;
+  }
+
+  .desktop-3__contant-us {
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 800;
+    font-size: 14px;
+    color: #F0F3FC;
+  }
+
+  .desktop-3__slogan {
+    margin-bottom: 73px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 600;
+    font-size: 36px;
+    color: #F0F3FC;
+  }
+
+  .desktop-3__join_container {
+    border-radius: 40px;
+    background: #F0F3FC;
+    position: relative;
+    margin-bottom: 205px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    padding: 3px 9.8px 7px 0;
+    width: 143px;
+    box-sizing: border-box;
+  }
+  
+  .desktop-3__join_text {
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+      }
+
+  .desktop-3__about-us_title {
+    margin: 0 2.1px 40px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 600;
+    font-size: 32px;
+    color: #F0F3FC;
+  }
+
+  .desktop-3_about_us_info{
+    margin: 0 0 174px 30.9px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 600;
+    font-size: 23px;
+    color: #F0F3FC;
+  }
+
+ .desktop-3__contact-us {
+    margin: 0 0 24px 0px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 600;
+    font-size: 48px;
+    color: #F0F3FC;
+  }
+
+  .desktop-3__rectangle-3 {
+    border-radius: 15px;
+    background: rgba(31, 31, 31, 0.85);
+    margin: 0 0 19px 2px;
+    width: 415px;
+    height: 53px;
+  }
+
+  .desktop-3__rectangle-4 {
+    border-radius: 15px;
+    background: rgba(31, 31, 31, 0.85);
+    margin: 0 0 17px 1px;
+    width: 415px;
+    height: 53px;
+  }
+
+  .desktop-3__rectangle-5 {
+    border-radius: 15px;
+    background: rgba(31, 31, 31, 0.85);
+    margin: 0 0 19px 1px;
+    width: 415px;
+    height: 53px;
+  }
+
+  .desktop-3__rectangle-6 {
+    border-radius: 15px;
+    background: rgba(31, 31, 31, 0.85);
+    margin-left: 1px;
+    width: 415px;
+    height: 265px;
+  }
+
+  .desktop-3 .container {
+    margin: 0 51.1px 145px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1150.9px;
+    box-sizing: border-box;
+  }
