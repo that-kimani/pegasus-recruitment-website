@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 14px 60px 205px 60px;
+    padding: 14px 60px 0px 60px;
     width: 1352px;
     box-sizing: border-box;
   }
@@ -44,8 +44,7 @@
   }
 
   .desktop-3__home {
-    margin-right: 9px;
-    width: 55px;
+    width: 40px;
     overflow-wrap: break-word;
     font-family: 'K2D';
     font-weight: 800;
@@ -100,7 +99,7 @@
     font-weight: 400;
     font-size: 22px;
     color: #000000;
-      }
+  }
 
   .desktop-3__about-us_title {
     margin: 0 2.1px 40px 0;
@@ -159,16 +158,99 @@
   .desktop-3__rectangle-6 {
     border-radius: 15px;
     background: rgba(31, 31, 31, 0.85);
-    margin-left: 1px;
+    margin: 0 0 60px 1px;
     width: 415px;
     height: 265px;
   }
 
-  .desktop-3 .container {
-    margin: 0 51.1px 145px 0;
+  .desktop-3__footer {
+    background: rgba(26, 26, 26, 0.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0 38px 0;
+    width: 1352px;
+    box-sizing: border-box;
+  }
+
+  .desktop-3__pegasus-recruiting-1 {
+    margin: 5px 0px 17px 10px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 700;
+    font-size: 26px;
+    color: #F0F3FC;
+    }
+
+  .desktop-3__get-in-touch {
+    margin: 0 20px 10px 25px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    }
+
+  .desktop-3__email_container {
+    margin: 0 0px 34px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 1150.9px;
+    width: fit-content;
     box-sizing: border-box;
+  }
+
+  .desktop-3__email_icon {
+    margin: 4.1px 2px 1.1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 13px;
+    height: 8.8px;
+    box-sizing: border-box;
+  }
+
+  .desktop-3__vector {
+    width: 13px;
+    height: 8.8px;
+  }
+
+  .desktop-3__pegasusrecruitinggmail-com {
+    margin: 0 0 0 0px;
+    border: 0 0 0 22px;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 700;
+    font-size: 11px;
+    color: #FFFFFF;
+  }
+
+  .desktop-3__Ts_and_CS_Privacy_policy_container {
+    margin-right: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+
+  .desktop-3__privacy-policy {
+    margin: 0 0px 10px 20px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+
+  .desktop-3__terms-and-conditions {
+    margin-left: 18px;
+    overflow-wrap: break-word;
+    font-family: 'K2D';
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
   }
