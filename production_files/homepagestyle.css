@@ -50,14 +50,16 @@
     font-weight: 800;
     font-size: 14px;
     color: #F0F3FC;
+    text-decoration: none;
   }
 
-  .desktop-3__about-us_button {
+  .desktop-3__about-us {
     overflow-wrap: break-word;
     font-family: 'K2D';
     font-weight: 800;
     font-size: 14px;
     color: #F0F3FC;
+    text-decoration: none;
   }
 
   .desktop-3__contant-us {
@@ -66,6 +68,7 @@
     font-weight: 800;
     font-size: 14px;
     color: #F0F3FC;
+    text-decoration: none;
   }
 
   .desktop-3__slogan {
@@ -91,6 +94,7 @@
     padding: 3px 9.8px 7px 0;
     width: 143px;
     box-sizing: border-box;
+    text-decoration: none;
   }
   
   .desktop-3__join_text {
@@ -102,7 +106,7 @@
   }
 
   .desktop-3__about-us_title {
-    margin: 0 2.1px 40px 0;
+    margin: 0 2.1px 80px 0;
     display: inline-block;
     overflow-wrap: break-word;
     font-family: 'K2D';
@@ -112,7 +116,7 @@
   }
 
   .desktop-3_about_us_info{
-    margin: 0 0 174px 30.9px;
+    margin: 0 0 231px 30.9px;
     display: inline-block;
     overflow-wrap: break-word;
     font-family: 'K2D';
@@ -131,20 +135,33 @@
     color: #F0F3FC;
   }
 
+  .desktop-3__input_container{
+    display: flex;
+    flex-direction: column;
+  }
+
   .desktop-3__rectangle-3 {
     border-radius: 15px;
     background: rgba(31, 31, 31, 0.85);
     margin: 0 0 19px 2px;
     width: 415px;
     height: 53px;
+    font-size: 20px;
+    border: 0px;
+    color: #F0F3FC;
+    overflow-wrap: break-word;
   }
 
   .desktop-3__rectangle-4 {
     border-radius: 15px;
     background: rgba(31, 31, 31, 0.85);
-    margin: 0 0 17px 1px;
+    margin: 0 0 19px 1px;
     width: 415px;
     height: 53px;
+    font-size: 20px;
+    border: 0px;
+    color: #F0F3FC;
+    overflow-wrap: break-word;
   }
 
   .desktop-3__rectangle-5 {
@@ -153,6 +170,10 @@
     margin: 0 0 19px 1px;
     width: 415px;
     height: 53px;
+    font-size: 20px;
+    border: 0px;
+    color: #F0F3FC;
+    overflow-wrap: break-word;
   }
 
   .desktop-3__rectangle-6 {
@@ -161,6 +182,12 @@
     margin: 0 0 60px 1px;
     width: 415px;
     height: 265px;
+    font-size: 20px;
+    border: 0px;
+    color: #F0F3FC;
+    overflow-wrap: break-word;
+    resize: none;
+    padding: 10px 10px 10px 10px;
   }
 
   .desktop-3__footer {
@@ -244,6 +271,7 @@
     font-weight: 700;
     font-size: 14px;
     color: #FFFFFF;
+    text-decoration: none;
   }
 
   .desktop-3__terms-and-conditions {
@@ -253,4 +281,5 @@
     font-weight: 700;
     font-size: 14px;
     color: #FFFFFF;
+    text-decoration: none;
   }
