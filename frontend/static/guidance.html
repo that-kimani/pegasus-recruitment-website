@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chatbot Assistant</title>
+  <link rel="stylesheet" href="css/guidance.css" />
+</head>
+<body>
+  <header>
+    <h1>Talk to Our Assistant</h1>
+    <p>Ask questions, get guidance, and more — all in real time.</p>
+  </header>
+
+  <main class="chat-container">
+    <div id="chat-box" class="chat-box">
+      <!-- Messages will appear here -->
+    </div>
+
+    <form id="chat-form" class="chat-form">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Type your message here..."
+        required
+      />
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pegasus Recruitment. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const form = document.getElementById('chat-form');
+    const input = document.getElementById('user-input');
+    const chatBox = document.getElementById('chat-box');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const userMessage = input.value.trim();
+      if (!userMessage) return;
+
+      appendMessage('You', userMessage);
+      input.value = '';
+
+      try {
+        const response = await fetch('https://your-n8n-endpoint.com/webhook/chatbot', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: userMessage }),
+        });
+
+        const data = await response.json();
+        appendMessage('Assistant', data.reply || 'Sorry, no response received.');
+      } catch (error) {
+        appendMessage('Assistant', 'Error connecting to assistant.');
+      }
+    });
+
+    function appendMessage(sender, text) {
+      const messageDiv = document.createElement('div');
+      messageDiv.classList.add('message');
+      messageDiv.innerHTML = `<strong>${sender}:</strong> ${text}`;
+      chatBox.appendChild(messageDiv);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+  </script>
+</body>
+</html>
