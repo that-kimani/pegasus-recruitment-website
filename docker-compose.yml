@@ -1,0 +1,26 @@
+services:
+  backend:
+    image: recruitment-website-backend
+    pull_policy: never
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+
+    container_name: recruitment-website-backend
+    expose:
+      - 5000
+
+  frontend:
+    image: recruitment-website-frontend
+    pull_policy: never
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+
+    container_name: site-frontend
+
+    ports:
+      - "80:80"
+
+    depends_on:
+      - backend
