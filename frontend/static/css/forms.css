@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background: linear-gradient(283deg, #000 21%, #091743 100%);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+input {
+  margin-bottom: 1.0rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  background-color: #00408099;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+/* Main Form Container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(12px);
+  /* border: 1px solid rgba(255,255,255,0.2); */
+
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  height: 600px;
+}
+
+.guidance-form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.8rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 500px;
+}
+
+.guidance-form label {
+  display: block;
+  margin-top: 0.2rem;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.guidance-form input,
+.guidance-form textarea {
+  width: 450px;
+  height: 40px;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #4a4646;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.guidance-form textarea {
+  resize: vertical;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: 16rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #003366;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: #00408099;
+  color: #555;
+}
